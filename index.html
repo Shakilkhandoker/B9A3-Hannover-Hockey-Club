@@ -52,7 +52,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content  z-[1] p-2 w-52 text-[#424247]">
+            <ul tabindex="0" class="menu menu-sm dropdown-content  z-[1] p-2 w-52 text-[#424247] ">
               <li class="text-second-color"><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Pages</a></li>
@@ -60,7 +60,7 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <a class="lg:text-3xl md:text-2xl sm:text-base font-extrabold ">Hockey<span
+          <a class="sm:text-base md:text-2xl lg:text-3xl  font-extrabold ">Hockey<span
               class="text-second-color">’</span>s</a>
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -83,8 +83,8 @@
       </div>
     </nav>
     <!-- ====Banner==== -->
-    <div>
-      <div class="carousel w-full relative mt-10">
+    <div class="relative">
+      <div class="carousel w-full mt-10">
         <!-- ----first slide---- -->
         <div id="slide1" class="carousel-item relative w-full">
           <img src="./Images/banner-first.png" class="w-full" />
@@ -118,16 +118,60 @@
           </div>
         </div>
       </div>
-      <div class="bg-first-color p-6 w-[600px] h-[180px] rounded-2xl absolute -bottom-48 lg:right-32 sm:right-1">
-        <div  class="p-6">
-          <h3 class="text-white text-base font-extrabold mb-4">Meet all the heroes from the field</h3>
-          <p class="text-xs font-medium text-slate-400">Hannover Hockey Club has over 375 members with nine adult teams and a successful Junior Development Programme. We play top-quality hockey with a friendly and enjoyable after-match atmosphere.</p>
+      <div class="bg-first-color mx-2 p-2 md:p-6 md:w-[450px] lg:w-[600px] md:h-[130px] lg:h-[180px] rounded-2xl  md:absolute mt-4  md:bottom-12 md:right-36 lg:right-12 ">
+        <div  class="p-2 ">
+          <h3 class="text-white text-sm md:text-base font-extrabold  mb-2 md:mb-4">Meet all the heroes from the field</h3>
+          <p class=" text-xs font-medium text-slate-400 ">Hannover Hockey Club has over 375 members with nine adult teams and a successful Junior Development Programme. We play top-quality hockey with a friendly and enjoyable after-match atmosphere.</p>
         </div>
       </div>
     </div>
   </header>
-  <main>
+  <!-- ----main---- -->
+  <main class="container mx-auto">
+    <!-- =====Professional section===== -->
+    <section class="mt-24">
+      <div>
+        <h2 class="text-first-color text-center text-base md:text-2xl lg:text-3xl font-extrabold mb-6">Professional Hockeys Club</h2>
+        <p class="text-third-color lg:w-[600px] sm:w-[350px] mx-10 md:mx-auto lg:mx-auto mb-8 text-center font-medium text-xs ">With ten men’s teams, six ladies teams, a mixed side, a range of youth teams, various touring sides and Back to Hockey sessions, Hannover Hockey Club offers hockey to players of any ability.</p>
+      </div>
+      <div class="flex flex-col md:flex-row justify-around mt-12 w-full gap-12">
+        <!-- Percentage one -->
+        <div class="w-full md:w-1/2 lg:w-1/4 flex flex-col justify-center items-center">
+          <div class="radial-progress text-second-color mb-5 " style="--value:87;" role="progressbar"><span class="text-third-color text-lg font-extrabold">87%</span></div>
+          <div class="w-56 md:w-auto lg:w-auto">
+            <h3 class="text-sm font-semibold text-center mb-4">Prayer Facility</h3>
+            <p class="text-third-color text-xs  text-center ">A Prayer Room is an opportunity to draw aside, take time out and meet with God.</p>
+          </div>
+        </div>
 
+        <!-- Percentage two -->
+        <div class="w-full md:w-1/2 lg:w-1/4 flex flex-col justify-center items-center">
+          <div class="radial-progress text-[#49D293] mb-5 " style="--value:95;" role="progressbar"><span class="text-third-color text-lg font-extrabold">95%</span></div>
+          <div class="w-56 md:w-auto lg:w-auto">
+            <h3 class="text-sm font-semibold text-center mb-4">Prayer Facility</h3>
+            <p class="text-third-color text-xs  text-center ">A Prayer Room is an opportunity to draw aside, take time out and meet with God.</p>
+          </div>
+        </div>
+
+        <!-- Percentage three -->
+        <div class="w-full md:w-1/2 lg:w-1/4 flex flex-col justify-center items-center">
+          <div class="radial-progress text-[#FFB546] mb-5 " style="--value:90;" role="progressbar"><span class="text-third-color text-lg font-extrabold">90%</span></div>
+          <div class="w-56 md:w-auto lg:w-auto">
+            <h3 class="text-sm font-semibold text-center mb-4">Prayer Facility</h3>
+            <p class="text-third-color text-xs  text-center ">A Prayer Room is an opportunity to draw aside, take time out and meet with God.</p>
+          </div>
+        </div>
+
+        <!-- Percentage four -->
+        <div class="w-full md:w-1/2 lg:w-1/4 flex flex-col justify-center items-center">
+          <div class="radial-progress text-[#4C8DF1] mb-5 " style="--value:80;" role="progressbar"><span class="text-third-color text-lg font-extrabold">80%</span></div>
+          <div class="w-56 md:w-auto lg:w-auto">
+            <h3 class="text-sm font-semibold text-center mb-4">Prayer Facility</h3>
+            <p class="text-third-color text-xs  text-center ">A Prayer Room is an opportunity to draw aside, take time out and meet with God.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
 
