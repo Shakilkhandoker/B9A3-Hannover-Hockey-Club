@@ -2,43 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- ----Daisy and tailwind link----- -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- ----Google font link---- -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-        <!-- ---customization--- -->
-        <script>
-          tailwind.config = {
-              theme: {
-                  extend: {
-                      colors: {
-                          clifford: '#da373d',
-                          'first-color': '#E76F51',
-                          'second-color': '#23A6F0',
-                          'back-color': 'rgba(231, 111, 81, 0.10)',
-                      }
-                  }
-              }
-          }
-      </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- ----Daisy and tailwind link----- -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-      <style>
-        .font-manrope{
-          font-family: 'Manrope', sans-serif;
+  <!-- ----Google font link---- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- ---customization--- -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'first-color': '#131318',
+            'second-color': '#FF4240',
+            'third-color': 'rgba(19, 19, 24, 0.60);',
+            'back-color': 'rgba(231, 111, 81, 0.10)',
+          }
         }
-      </style>
+      }
+    }
+  </script>
+
+  <style>
+    .font-manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 
 </head>
 
-<body class="font-manrope">
+<body class="font-manrope ">
+  <header class="container mx-auto">
+    <nav class="mt-14 lg:my-10 mx-3 xl:mx-0">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content  z-[1] p-2 w-52 text-[#424247]">
+              <li class="text-second-color"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <a class="text-3xl font-extrabold ">Hockey<span class="text-second-color">’</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 items-center gap-8 text-sm text-[#424247] ">
+            <li class="text-second-color font-bold"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Button</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
 
+  </main>
+  <footer>
+
+  </footer>
 </body>
 
 </html>
